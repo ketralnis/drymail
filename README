@@ -1,0 +1,15 @@
+Requires:
+  * crm114
+Option:
+  * python with libreadline
+
+Todo:
+  * include timestamp in actionutils/do_show()
+  * actionutils option for autosending message without prompt
+  * ability to pass actions to actions (like --autosend)
+  * shorter aliases for commands
+  * eventually, a way to send from right inside drymail
+  * mark acted messages as 'read', as well as the ability to move them somewhere
+  * imap commands
+    - move, copy, markread, delete, lsub, switchmailbox
+  * auto-create missing .drymail/config
